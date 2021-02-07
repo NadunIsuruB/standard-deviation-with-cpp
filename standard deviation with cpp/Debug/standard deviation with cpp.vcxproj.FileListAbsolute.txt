@@ -1,0 +1,2 @@
+D:\cpp\calculate the standard deviation with cpp\standard-deviation-with-cpp\standard deviation with cpp\Debug\standard deviation with cpp.exe
+D:\cpp\calculate the standard deviation with cpp\standard-deviation-with-cpp\standard deviation with cpp\Debug\standard deviation with cpp.pdb
