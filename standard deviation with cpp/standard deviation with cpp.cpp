@@ -30,6 +30,8 @@ int main()
    std::cout <<"Mean: " << Mean << std::endl;
    SD = StandardDev(count, array);
    std::cout << "Standard Deviation: " << SD << std::endl;
+
+   delete[] array;
 } //Main method
 
 float CalMean(int &_count, float *_array)
