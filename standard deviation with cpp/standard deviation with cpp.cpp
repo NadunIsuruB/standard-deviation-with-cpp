@@ -56,9 +56,9 @@ float StandardDev(int& _count, float *_array)
 
     for (int i = 0; i < _count; i++)
     {
-        _Variation += pow(*(_array + i), 2);
-
-        return sqrt(_Variation / (_mean - 1));
+        _Variation += pow((*(_array + i) - _mean), 2);
     }
+
+    return sqrt(_Variation / (_count - 1));
 
 }//Calculate standard deviation
