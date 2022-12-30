@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <cmath>
 
 float CalMean(int &_count, float *_array);
 float StandardDev(int& _count, float *_array);
